@@ -32,3 +32,6 @@ In this lab, I will show you how to create a simple meme website using Python, H
 11. Type *apt install pipx* into the terminal. This will help us download other Python tools in the future.
 12. Type *pipx ensurepath * into the terminal. This ensures the directory where pipx stores applications is included in your system's PATH environment variable. This allows you to run applications installed with pipx directly from your terminal by simply typing their names, without needing to specify the full path to their executables.
 13. Make sure flask is downloaded by using *pipx list*. If not downloaded, use this command: *pipx install flask*.
+14. Once *pipx* is downloaded, use this command into your terminal: *source myenv/bin/activate*.
+15. From (myenv), use this command: *pip3 install requests*
+16. After that, type *pip install flask* into your terminal.  
