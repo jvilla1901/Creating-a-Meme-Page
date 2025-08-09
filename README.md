@@ -34,4 +34,21 @@ In this lab, I will show you how to create a simple meme website using Python, H
 13. Make sure flask is downloaded by using *pipx list*. If not downloaded, use this command: *pipx install flask*.
 14. Once *pipx* is downloaded, use this command into your terminal: *source myenv/bin/activate*.
 15. From (myenv), use this command: *pip3 install requests*
-16. After that, type *pip install flask* into your terminal.  
+16. After that, type *pip install flask* into your terminal.
+17. To create a Python file in the terminal, you use the *nano* command. You want to name it, so for this example we will be naming it *flasktest.py*. (Command to use in the prompt: nano flasktest.py)
+18. Copy the flasktest.py file and paste it to the terminal.
+
+![Image](https://github.com/user-attachments/assets/4b61f706-856d-4617-8f2d-888065beca38)
+
+19. To get out of the nano editor, press CTRL+X and is going to ask if you want to save your work. Type *Y* to save your work.
+20. To get the python file and the site running, use this command: *python3 flasktest.py*
+21. Copy the IP adress at the bottom of the terminal and open up your web browser and paste it to the address bar and hit enter. In my example, it is 172.236.243.88:80. So I will copy that and paste it to my web browser then I hit enter.
+
+![Image](https://github.com/user-attachments/assets/787fa890-544a-456c-9321-c6fd5ca9c915)
+
+22. You should be able to see a screen like this.
+
+![Image](https://github.com/user-attachments/assets/f5981fa2-19d5-40a4-beec-4c9d7308b7a1)
+
+23. If the test worked, go back to the terminal and use CTRL+C to make the python file stop running.
+24.  
