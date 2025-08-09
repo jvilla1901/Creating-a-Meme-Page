@@ -51,4 +51,28 @@ In this lab, I will show you how to create a simple meme website using Python, H
 ![Image](https://github.com/user-attachments/assets/f5981fa2-19d5-40a4-beec-4c9d7308b7a1)
 
 23. If the test worked, go back to the terminal and use CTRL+C to make the python file stop running.
-24.  
+24. Enter *ls* into the terminal to see if you see a directory called "meme_flask". If you do not see it, make a new directory by using this command: *mkdir meme_flask*
+25. Change the directory to meme_flask by using this command: *cd meme_flask*
+26. Create a new python file by using the nano command: *nano meme_flask*
+27. Copy the meme_flask.py file and paste to to your nano editor.
+
+![Image](https://github.com/user-attachments/assets/ca13cbe1-a253-445f-8a53-912801b1d80d)
+
+28. Exit from the nano editor and save the file.
+29. Make a new directory called templates (Command: *mkdir templates*).
+30. Change directory to templates (Command: *cd templates*).
+31. Create a html file by using the nano command. Use this command: *nano meme_index.html*
+32. Copy the meme_index.html file from my repository and paste it to your nano editor.
+
+![Image](https://github.com/user-attachments/assets/0901e05d-19c3-4cd8-9c1d-c0916e2aa915)
+
+33. Exit from the nano editor and save the file.
+34. We need to go back to root/meme_flask. To do that, we need to go back a directory. Use this command: *cd ..*
+35. Run the new python file by using this command: *python3 meme_flask.py*
+36. Just like last time, copy the IP address from the terminal and paste it to your web browser. It should look like this (meme will vary).
+
+![Image](https://github.com/user-attachments/assets/3edfe765-f69f-40b9-a4f2-6fba785f3d76)
+
+**And just like that, we have created a meme page using Flask, Python and HTML!** <br>
+Feel free to edit the HTML code to design the website better. 
+
